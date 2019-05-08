@@ -1,0 +1,162 @@
+<resources>
+    <string name="app_name">Observerpattern</string>
+
+    <string name="facebook_app_id">380083072736944</string>
+    <string name="fb_login_protocol_scheme">fb380083072736944</string>
+
+    <string name="error_message_1000">Unknown error</string>
+    <string name="error_message_1001">Invalid error</string>
+    <string name="error_message_1002">Unique</string>
+    <string name="error_message_1003">Invalid email</string>
+    <string name="error_message_1004">Unique email</string>
+    <string name="error_message_1005">Invalid password</string>
+    <string name="error_message_1006">Invalid username</string>
+    <string name="error_message_1007">Unique username</string>
+    <string name="error_message_1008">Authentication failed</string>
+    <string name="error_message_1009">Not authenticated</string>
+    <string name="error_message_1010">Permission denied</string>
+    <string name="error_message_1011">Not found</string>
+    <string name="error_message_1012">Not verified email</string>
+    <string name="error_message_1013">Provider notfound</string>
+    <string name="error_message_1014">Invalid code verify phone number</string>
+    <string name="error_message_1015">Phone number verified</string>
+    <string name="error_message_1016">Email not found email</string>
+    <string name="error_message_1017">Cannot send email</string>
+    <string name="error_message_1018">Not verified phone number</string>
+    <string name="error_message_1019">Expired token</string>
+    <string name="error_message_1020">Duplicate fields</string>
+    <string name="error_message_1021">Email verified</string>
+    <string name="error_message_1022">Duplicate phone number</string>
+    <string name="error_message_1023">Invalid password current password</string>
+    <string name="error_message_1024">Missing first name</string>
+    <string name="error_message_1025">Missing last name</string>
+    <string name="error_message_1026">Throttled request</string>
+    <string name="error_message_1027">Invalid last name</string>
+    <string name="error_message_1028">Invalid first name</string>
+
+    <string name="error_message_2000">Unique code</string>
+    <string name="error_message_2001">Max length code</string>
+    <string name="error_message_2002">Max length name</string>
+    <string name="error_message_2003">Invalid name</string>
+    <string name="error_message_2004">Invalid code</string>
+    <string name="error_message_2005">Required code</string>
+    <string name="error_message_2006">Required name</string>
+    <string name="error_message_2007">Invalid date</string>
+    <string name="error_message_2008">Invalid time</string>
+
+    <string name="error_message_2100">Does not exist space</string>
+    <string name="error_message_2101">Exist review coworking space</string>
+    <string name="error_message_2102">Exist favorite coworking space</string>
+    <string name="error_message_2103">Invalid rating</string>
+
+    <string name="error_message_3000">Invalid organization</string>
+    <string name="error_message_3001">Invalid coworking space</string>
+    <string name="error_message_3002">Unique non field errors</string>
+
+    <string name="error_message_4001">Invalid plan subs</string>
+    <string name="error_message_4002">Duplicate activated date</string>
+    <string name="error_message_4003">Other subs activated</string>
+    <string name="error_message_4004">Invalid code promotion</string>
+    <string name="error_message_4005">Does not support payment</string>
+    <string name="error_message_4006">Code exceeds limit</string>
+    <string name="error_message_4007">Invalid transaction payment</string>
+    <string name="error_message_4008">Code limit user</string>
+    <string name="error_message_4009">Code limit plan</string>
+    <string name="error_message_4010">Out of gift</string>
+    <string name="error_message_4011">Not eligible for the campaign</string>
+    <string name="error_message_4012">Invalid payment channel</string>
+    <string name="error_message_4013">Payment update error</string>
+    <string name="error_message_4014">Subscription not available</string>
+    <string name="error_message_4015">Beyond expired date of plan</string>
+
+    <string name="error_message_5000">Beyond expired date</string>
+    <string name="error_message_5001">Already booked</string>
+    <string name="error_message_5002">Missing pricing config</string>
+    <string name="error_message_5003">Full slot</string>
+    <string name="error_message_5004">Full slot free plan</string>
+    <string name="error_message_5005">Missing booking statistics</string>
+    <string name="error_message_5006">Reached limitation day</string>
+    <string name="error_message_5007">Reached limitation month</string>
+    <string name="error_message_5008">Invalid subscription</string>
+    <string name="error_message_5009">Has no subscription</string>
+    <string name="error_message_5010">Coworking not available</string>
+    <string name="error_message_5011">Not available for update</string>
+    <string name="error_message_5012">Not available for cancel</string>
+    <string name="error_message_5013">Update the past</string>
+    <string name="error_message_5014">Required subscription</string>
+    <string name="error_message_5015">Reached limitation turns</string>
+    <string name="error_message_5016">Booking not changed</string>
+
+    <string name="error_message_6000">Invalid code booking</string>
+    <string name="error_message_6001">Booking not completed</string>
+
+    <string name="error_message_lost_internet_connection">Unable to connect. Please check that you are connected to the
+        Internet and try again.
+    </string>
+
+    <string name="alert_account_is_empty">Account is empty!</string>
+    <string name="alert_password_is_empty">Password is empty!</string>
+    <string name="alert_email_is_invalid">Email is invalid!</string>
+    <string name="alert_password_and_re_password_mismatched">Password and re-Password does not match!</string>
+    <string name="alert_password_should_longer_than_eight_characters">Password should longer than 8 characters!</string>
+    <string name="alert_name_is_invalid">Username is invalid!</string>
+    <string name="alert_not_account">Have you not already account?</string>
+
+    <string name="title_setting">Setting</string>
+    <string name="title_register">Sign up account</string>
+    <string name="title_login_account">Login account</string>
+
+    <string name="label_intro">Tối ưu chi phí sử dụng\nCoworking</string>
+    <string name="label_lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit,\nsed do eiusmod tempor
+        incididunt
+        ut labore et dolore
+    </string>
+    <string name="alert_need">
+        <i>need for booking and purchase any service form Spaceshare</i>
+    </string>
+    <string name="label_register_alert">Need for booking and purchase any service form Spaceshare</string>
+    <string name="label_or">Or</string>
+    <string name="label_plus_84">+84</string>
+    <string name="label_username_or_email">Username or Email</string>
+    <string name="label_re_password">Re-Password</string>
+    <string name="label_password">Password</string>
+    <string name="label_your_mail">Your email</string>
+    <string name="label_have_you_already_acount">Have you already acount ?</string>
+    <string name="label_phone_number">Your mobile phone</string>
+    <string name="label_username">Enter full name</string>
+    <string name="label_login_now">Login now</string>
+    <string name="label_sign_up">Sign up</string>
+    <string name="label_verify_email">Enter your email</string>
+    <string name="label_verify_notification">Activation link has been sent to</string>
+    <string name="label_verify_information">Please complete the registration information below \nto use the service
+    </string>
+    <string name="label_your_email">kendy.dung@gmail.com.</string>
+    <string name="label_verify_notification_line2">Please visit the email and</string>
+    <string name="label_verify_notification_line3">follow the instructions</string>
+
+    <string name="button_facebook">Sign up by Facebook</string>
+    <string name="button_facebook_login">Login by Facebook</string>
+    <string name="button_login">login</string>
+    <string name="button_forgot_password">Forgot password?</string>
+    <string name="button_sign_up_now">Sign up now</string>
+    <string name="button_skip">Skip</string>
+    <string name="button_next">Next</string>
+    <string name="button_done">Done</string>
+    <string name="button_try_again">Try again</string>
+    <string name="button_cancel">Cancel</string>
+
+    <string name="hint_search">Search by coworking name</string>
+    <string name="hint_or">
+        <i>Or</i>
+    </string>
+    <string name="hint_password">Please input Password</string>
+    <string name="hint_re_password">Please input RePassword</string>
+    <string name="hint_email">Please input email or user name</string>
+    <string name="hint_username">Please input your full name</string>
+
+    <string name="format_space_share"><![CDATA[
+        <font color="#F8BF63"><b>Spaceshare</b></font><font color="#001A39"><b>.com</b></font>
+        ]]></string>
+
+
+</resources>

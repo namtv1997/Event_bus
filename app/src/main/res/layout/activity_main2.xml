@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.observerpattern.Main2Activity">
+
+    <androidx.constraintlayout.widget.Guideline android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                                android:id="@+id/guideline3" app:layout_constraintGuide_begin="16dp"
+                                                android:orientation="vertical"/>
+    <androidx.constraintlayout.widget.Guideline android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                                android:id="@+id/guideline4"
+                                                android:orientation="vertical" app:layout_constraintGuide_end="16dp"/>
+    <TextView
+            android:text="@string/title_register"
+            android:layout_width="0dp"
+            android:id="@+id/textView" android:layout_height="49dp"
+            app:layout_constraintStart_toStartOf="@+id/guideline3"
+            android:layout_marginTop="28dp" app:layout_constraintTop_toTopOf="parent" android:textSize="20sp"
+            android:textColor="@color/black"/>
+    <TextView
+            android:text="@string/label_register_alert"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView9" app:layout_constraintEnd_toStartOf="@+id/guideline4"
+            app:layout_constraintStart_toStartOf="@+id/guideline3"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView" android:layout_marginBottom="16dp"
+            app:layout_constraintBottom_toTopOf="@+id/button"/>
+    <Button
+            android:text="Sign up by Facebook"
+            android:layout_width="0dp"
+            style="@style/ButtonFacebook"
+            android:layout_height="wrap_content"
+            android:id="@+id/button" app:layout_constraintEnd_toStartOf="@+id/guideline4"
+            app:layout_constraintStart_toStartOf="@+id/guideline3"
+            android:layout_marginTop="16dp" app:layout_constraintTop_toBottomOf="@+id/textView9"/>
+    <TextView
+            android:text="Or"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView10" android:textSize="20sp"
+            android:layout_marginTop="8dp" app:layout_constraintTop_toBottomOf="@+id/button"
+            android:layout_marginEnd="8dp" app:layout_constraintEnd_toStartOf="@+id/guideline4"
+            android:layout_marginStart="8dp" app:layout_constraintStart_toStartOf="@+id/guideline3"/>
+    <TextView
+            android:text="@string/label_username_or_email"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView11" app:layout_constraintEnd_toStartOf="@+id/guideline4"
+            app:layout_constraintStart_toStartOf="@+id/guideline3"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView10" android:textStyle="bold"
+            android:textColor="@color/black"/>
+    <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/edtUsername"
+            app:layout_constraintEnd_toStartOf="@+id/guideline4"
+            app:layout_constraintStart_toStartOf="@+id/guideline3" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView11"/>
+    <TextView
+            android:text="@string/label_password"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView12" app:layout_constraintEnd_toStartOf="@+id/guideline4"
+            app:layout_constraintStart_toStartOf="@+id/guideline3"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/edtUsername" android:textSize="16sp"
+            android:textColor="@color/black" android:textStyle="bold"/>
+    <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/edtPassWord"
+            app:layout_constraintEnd_toStartOf="@+id/guideline4"
+            app:layout_constraintStart_toStartOf="@+id/guideline3" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView12"/>
+    <TextView
+            android:text="@string/label_re_password"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView13" app:layout_constraintEnd_toStartOf="@+id/guideline4"
+            app:layout_constraintStart_toStartOf="@+id/guideline3"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/edtPassWord" android:textSize="16sp"
+            android:textColor="@color/black" android:textStyle="bold"/>
+    <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/edtRePassWord"
+            app:layout_constraintEnd_toStartOf="@+id/guideline4"
+            app:layout_constraintStart_toStartOf="@+id/guideline3" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView13"/>
+    <Button
+            android:text="@string/label_sign_up"
+            android:layout_width="0dp"
+            style="@style/ButtonYellowRound"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnSignUp" app:layout_constraintEnd_toStartOf="@+id/guideline4"
+            app:layout_constraintStart_toStartOf="@+id/guideline3"
+            android:layout_marginTop="24dp" app:layout_constraintTop_toBottomOf="@+id/edtRePassWord"/>
+    <TextView
+            android:text="@string/label_have_you_already_acount"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView14" app:layout_constraintStart_toStartOf="@+id/guideline3"
+            android:layout_marginTop="24dp" app:layout_constraintTop_toBottomOf="@+id/btnSignUp"
+            android:layout_marginStart="50dp"/>
+    <TextView
+            android:text="@string/label_login_now"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView15" app:layout_constraintEnd_toStartOf="@+id/guideline4"
+            android:layout_marginTop="24dp" app:layout_constraintTop_toBottomOf="@+id/btnSignUp"
+            app:layout_constraintStart_toEndOf="@+id/textView14" android:layout_marginStart="8dp"
+            android:textColor="#FF2897EC"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
